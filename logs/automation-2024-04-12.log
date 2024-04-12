@@ -1,0 +1,51 @@
+12:06:08.712 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:06:08.764 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+12:06:08.767 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+12:06:08.770 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+12:06:08.771 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+12:06:08.774 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+12:06:08.794 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+12:06:08.795 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+12:06:08.796 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+12:06:08.800 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+12:06:08.993 [main] ERROR testCases.TC_001_Validate_BookShelves - TC003 Test Failed..
+12:06:08.993 [main] DEBUG testCases.TC_001_Validate_BookShelves - .......Application Logs Ended for TC_003.......
+12:06:08.993 [main] INFO  testCases.TC_001_Validate_BookShelves - **** End TC_003_Validate_Gift_Cards ****
+12:06:09.186 [main] DEBUG testCases.TC_001_Validate_BookShelves - .......Application Logs Started for TC_003.......
+12:06:09.187 [main] INFO  testCases.TC_001_Validate_BookShelves - **** Start TC_003_Validate_Gift_Cards ****
+12:06:10.563 [main] INFO  testCases.TC_001_Validate_BookShelves - Navigated
+12:06:12.269 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Gift Cards
+12:06:12.381 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Birthday Anniversary
+12:06:12.533 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Rupees
+12:06:12.680 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Next
+12:06:12.948 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Recipient Name Value
+12:06:13.176 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Recipient Email Value
+12:06:13.357 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Recipient Mobile Number Value
+12:06:13.519 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Customer Name Value
+12:06:13.741 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Customer Email Value
+12:06:13.934 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Customer Mobile Value
+12:06:14.084 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Customer Address Value
+12:06:14.269 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Zipcode Value
+12:06:15.380 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Submit
+12:06:16.425 [main] INFO  testCases.TC_001_Validate_BookShelves - Payment Section Present
+12:06:17.460 [main] INFO  testCases.TC_001_Validate_BookShelves - Scrolled to Payment Section
+12:06:17.469 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+12:06:17.472 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+12:06:17.474 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+12:06:17.520 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+12:06:17.522 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+12:06:17.525 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+12:06:17.525 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+12:06:17.529 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+12:06:17.529 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+12:06:17.530 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+12:06:17.531 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+12:06:17.534 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+12:06:17.538 [main] DEBUG testCases.TC_001_Validate_BookShelves - .......Application Logs Ended for TC_003.......
+12:06:17.538 [main] INFO  testCases.TC_001_Validate_BookShelves - **** End TC_003_Validate_Gift_Cards ****
+12:06:18.095 [main] DEBUG testCases.TC_001_Validate_BookShelves - .......Application Logs Started for TC_003.......
+12:06:18.095 [main] INFO  testCases.TC_001_Validate_BookShelves - **** Start TC_003_Validate_Gift_Cards ****
+12:06:19.322 [main] INFO  testCases.TC_001_Validate_BookShelves - Navigated
+12:06:21.377 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Gift Cards
+12:06:21.460 [main] INFO  testCases.TC_001_Validate_BookShelves - Clicked Birthday Anniversary
+12:06:21.563 [main] INFO  testCases.TC_001_Validate_BookShelves - Set Rupees

@@ -19,8 +19,8 @@
 			          <version>3.2.5</version>
 			          <configuration>
 			            <suiteXmlFiles>
-			            	<suiteXmlFile>testng.xml</suiteXmlFile> 
-			            	<!--<suiteXmlFile>crossbrowsing.xml</suiteXmlFile> -->
+			            	<!--<suiteXmlFile>testng.xml</suiteXmlFile> -->
+			            	<suiteXmlFile>crossbrowsing.xml</suiteXmlFile> 
 			            </suiteXmlFiles>
 			            <!-- put your configurations here -->
 			          </configuration>

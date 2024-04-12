@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 235.5 s <<< FAILURE! -- in TestSuite
-testCases.TC_003_Validate_Gift_Cards.test_003[Kamal, kamal.com, 6374603092, Vimal, vimal@gmail.com, 6374603082, Chennai, 600028, fail, 2](2) -- Time elapsed: 25.89 s <<< FAILURE!
+Tests run: 16, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 271.0 s <<< FAILURE! -- in TestSuite
+testCases.TC_003_Validate_Gift_Cards.test_003[Kamal, kamal.com, 6374603092, Vimal, vimal@gmail.com, 6374603082, Chennai, 600028, fail, 2](2) -- Time elapsed: 27.86 s <<< FAILURE!
 java.lang.AssertionError: 
 Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
   (Session info: chrome=120.0.6099.130)
@@ -10,11 +10,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a1e8b761a38fb0efe4ae509d364f1f55, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2318646\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a1e8b761a38fb0efe4ae509d364f1f55
+Command: [fc09228e1bd7bbd32cabce5224fb148a, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2318646\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54802}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54802/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc09228e1bd7bbd32cabce5224fb148a
 	at org.testng.Assert.fail(Assert.java:111)
-	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:86)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -48,7 +48,7 @@ Session ID: a1e8b761a38fb0efe4ae509d364f1f55
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.TC_003_Validate_Gift_Cards.test_003[Vimal, vimal@gmail.com, 6374603092, Vimal,  abc.com, 6374603082, Chennai, 600028, fail, 4](4) -- Time elapsed: 26.45 s <<< FAILURE!
+testCases.TC_003_Validate_Gift_Cards.test_003[Vimal, vimal@gmail.com, 6374603092, Vimal,  abc.com, 6374603082, Chennai, 600028, fail, 4](4) -- Time elapsed: 27.48 s <<< FAILURE!
 java.lang.AssertionError: 
 Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
   (Session info: chrome=120.0.6099.130)
@@ -56,11 +56,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a1e8b761a38fb0efe4ae509d364f1f55, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2318646\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50521/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a1e8b761a38fb0efe4ae509d364f1f55
+Command: [fc09228e1bd7bbd32cabce5224fb148a, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2318646\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54802}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54802/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc09228e1bd7bbd32cabce5224fb148a
 	at org.testng.Assert.fail(Assert.java:111)
-	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:86)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,7 +94,7 @@ Session ID: a1e8b761a38fb0efe4ae509d364f1f55
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.TC_003_Validate_Gift_Cards.test_003[Kamal, kamal.com, 6374603092, Vimal, vimal@gmail.com, 6374603082, Chennai, 600028, fail, 2](2) -- Time elapsed: 27.65 s <<< FAILURE!
+testCases.TC_003_Validate_Gift_Cards.test_003[Kamal, kamal.com, 6374603092, Vimal, vimal@gmail.com, 6374603082, Chennai, 600028, fail, 2](2) -- Time elapsed: 28.43 s <<< FAILURE!
 java.lang.AssertionError: 
 Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
   (Session info: MicrosoftEdge=123.0.2420.81)
@@ -102,11 +102,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [a9527d60f159134c7251c9f1bfbe272a, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50679}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\2318646\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50679/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9527d60f159134c7251c9f1bfbe272a
+Command: [07fbd69a7bebad9855615829653aba69, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55290}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\2318646\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55290/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07fbd69a7bebad9855615829653aba69
 	at org.testng.Assert.fail(Assert.java:111)
-	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:86)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -140,7 +140,7 @@ Session ID: a9527d60f159134c7251c9f1bfbe272a
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-testCases.TC_003_Validate_Gift_Cards.test_003[Vimal, vimal@gmail.com, 6374603092, Vimal,  abc.com, 6374603082, Chennai, 600028, fail, 4](4) -- Time elapsed: 26.00 s <<< FAILURE!
+testCases.TC_003_Validate_Gift_Cards.test_003[Vimal, vimal@gmail.com, 6374603092, Vimal,  abc.com, 6374603082, Chennai, 600028, fail, 4](4) -- Time elapsed: 31.53 s <<< FAILURE!
 java.lang.AssertionError: 
 Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
   (Session info: MicrosoftEdge=123.0.2420.81)
@@ -148,11 +148,11 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [a9527d60f159134c7251c9f1bfbe272a, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50679}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\2318646\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50679/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9527d60f159134c7251c9f1bfbe272a
+Command: [07fbd69a7bebad9855615829653aba69, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 123.0.2420.81, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55290}, msedge: {msedgedriverVersion: 123.0.2420.81 (8acdca46cf48..., userDataDir: C:\Users\2318646\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55290/devtoo..., se:cdpVersion: 123.0.2420.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07fbd69a7bebad9855615829653aba69
 	at org.testng.Assert.fail(Assert.java:111)
-	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+	at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:86)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

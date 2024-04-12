@@ -53,6 +53,10 @@ public class TC_003_Validate_Gift_Cards extends Base_Class{
 			Thread.sleep(1000);
 			flag=1;
 			gp.details_confirm_sec_ele();
+			logger.info("Payment Section Present");
+			Thread.sleep(1000);
+			gp.scroll_to_details_confirm_sec_ele();
+			logger.info("Scrolled to Payment Section");
 			if(exp_result.equalsIgnoreCase("pass"))
 			{
 				System.out.println("Info Valid = "+r_name);

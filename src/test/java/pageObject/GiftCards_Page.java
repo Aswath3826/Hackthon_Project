@@ -2,6 +2,7 @@ package pageObject;
 
 
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -90,5 +91,10 @@ public class GiftCards_Page extends Base_Page{
 	public void details_confirm_sec_ele()
 	{
 		boolean ele = details_confirm_sec.isDisplayed();
+	}
+	public void scroll_to_details_confirm_sec_ele()
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView()", details_confirm_sec);
 	}
 }
