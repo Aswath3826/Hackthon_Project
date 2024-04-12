@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-11T23:15:08 IST" name="Suite" finished-at="2024-04-11T23:16:43 IST" duration-ms="94859">
+    <groups>
+    </groups>
+    <test started-at="2024-04-11T23:15:08 IST" name="Test" finished-at="2024-04-11T23:16:43 IST" duration-ms="94859">
+      <class name="testCases.TC_003_Validate_Gift_Cards">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:15:09 IST" name="setup" finished-at="2024-04-11T23:15:21 IST" duration-ms="11785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:15:22 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:15:28 IST" duration-ms="5917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raja@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603082]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600028]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:15:28 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:15:54 IST" duration-ms="25755" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kamal.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603082]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600028]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dff9cb3c091cb90c192ad25bc7868462, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56441/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dff9cb3c091cb90c192ad25bc7868462]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dff9cb3c091cb90c192ad25bc7868462, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56441/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dff9cb3c091cb90c192ad25bc7868462
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:15:54 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:15:59 IST" duration-ms="5404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gomathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gomathi@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603082]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600028]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:16:00 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:16:26 IST" duration-ms="25961" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ abc.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603082]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600028]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[fail]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dff9cb3c091cb90c192ad25bc7868462, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56441/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dff9cb3c091cb90c192ad25bc7868462]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Section Element Not found: no such element: Unable to locate element: {"method":"xpath","selector":"//section[@class = '_14QEd _1QpDs']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dff9cb3c091cb90c192ad25bc7868462, findElement {using=xpath, value=//section[@class = '_14QEd _1QpDs']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56441/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dff9cb3c091cb90c192ad25bc7868462
+at org.testng.Assert.fail(Assert.java:111)
+at testCases.TC_003_Validate_Gift_Cards.test_003(TC_003_Validate_Gift_Cards.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:16:26 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:16:34 IST" duration-ms="8619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nikil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nikil@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[600028]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method signature="test_003(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:16:35 IST" name="test_003" data-provider="form_to_data" finished-at="2024-04-11T23:16:42 IST" duration-ms="7164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aswath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aswath@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6374603092]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vimal]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ vimal@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[6374603082]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[603103]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_003 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.TC_003_Validate_Gift_Cards@61861a29]" started-at="2024-04-11T23:16:42 IST" name="close" finished-at="2024-04-11T23:16:43 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.TC_003_Validate_Gift_Cards -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
